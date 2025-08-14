@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const slugify = require("slugify");
 
 module.exports = function(eleventyConfig) {
   // Pass the `assets` folder through to the final build
@@ -6,11 +7,19 @@ module.exports = function(eleventyConfig) {
 
   // A readable date filter (e.g., "Aug 15, 2025")
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    // Ensure dateObj is a valid Date object before formatting
     if (dateObj instanceof Date) {
       return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("LLL dd, yyyy");
     }
-    return dateObj; // Return original value if not a date
+    return dateObj;
+  });
+
+  // Custom slugify filter for URLs
+  eleventyConfig.addFilter("slugify", (str) => {
+    return slugify(str, {
+      lower: true,
+      strict: true,
+      remove: /[*+~.()'"!:@]/g
+    });
   });
 
   // Get all articles, sorted by date (newest first)
