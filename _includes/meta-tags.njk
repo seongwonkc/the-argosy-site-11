@@ -1,0 +1,18 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ title }} | The Argosy</title>
+<meta name="description" content="{{ summary or 'Treasure from Every Horizon.' }}" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | url }}">
+<meta property="og:title" content="{{ title }} | The Argosy">
+<meta property="og:description" content="{{ summary or 'Treasure from Every Horizon.' }}">
+<meta property="og:image" content="{{ image or '/assets/argosy-social-card.png' }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ page.url | url }}">
+<meta property="twitter:title" content="{{ title }} | The Argosy">
+<meta property="twitter:description" content="{{ summary or 'Treasure from Every Horizon.' }}">
+<meta property="twitter:image" content="{{ image or '/assets/argosy-social-card.png' }}">
