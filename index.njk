@@ -5,11 +5,11 @@ title: "Treasure from Every Horizon"
 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
     {% set top_story = collections.articles[0] %}
     {% if top_story %}
-    <section class="mb-12">
+    <section id="top-stories" class="mb-12">
       <article class="grid md:grid-cols-2 gap-8 items-center">
-        <div>
+        <div class="md:pr-8">
           <p class="text-sm font-bold text-blue-600 uppercase tracking-wide">{{ top_story.data.section }}</p>
-          <h1 class="mt-2 text-4xl md:text-5xl font-bold">{{ top_story.data.title }}</h1>
+          <h1 class="mt-2 text-4xl md:text-5xl font-bold leading-tight text-gray-900 dark:text-white">{{ top_story.data.title }}</h1>
           <p class="mt-4 text-lg text-gray-700 dark:text-gray-300">{{ top_story.data.summary }}</p>
           <div class="mt-4">
             <span class="text-sm font-semibold">By {{ top_story.data.author }}</span>
@@ -21,5 +21,74 @@ title: "Treasure from Every Horizon"
         <img src="{{ top_story.data.image }}" alt="{{ top_story.data.title }}" class="w-full h-auto object-cover">
       </article>
     </section>
+    {% else %}
+    <div class="text-center py-12 text-gray-500">
+        <h2 class="text-2xl font-bold">No articles found.</h2>
+        <p class="mt-2">Add your first Markdown article to the `/articles/` folder to see it here.</p>
+    </div>
     {% endif %}
+
+    <!-- Featured grid -->
+    {% if collections.articles.length > 1 %}
+    <section class="mb-12" id="featured">
+      <h2 class="text-3xl font-bold mb-6 pb-3 border-b-2 border-gray-800 dark:border-gray-200">Featured Stories</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {%- for article in collections.articles | slice(1, 4) -%}
+        <article>
+          <img class="w-full h-48 object-cover" src="{{ article.data.image }}" alt="{{ article.data.title }}">
+          <p class="mt-2 text-xs font-bold text-blue-600 uppercase">{{ article.data.section }}</p>
+          <h3 class="text-xl font-bold mt-1"><a href="{{ article.url }}" class="hover:text-blue-600">{{ article.data.title }}</a></h3>
+          <p class="text-sm mt-2 text-gray-700 dark:text-gray-300">{{ article.data.summary }}</p>
+        </article>
+        {%- endfor -%}
+      </div>
+    </section>
+    {% endif %}
+    
+    <!-- Main content grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-12">
+      <!-- Main column for sections -->
+      <div class="lg:col-span-2 space-y-12">
+        {%- for section in ["Politics", "Health", "Business", "Science", "Environment", "Education", "Admissions", "Sports"] -%}
+        {% set sectionArticles = collections.articles | filterBy("section", section) | slice(0, 2) %}
+        {% if sectionArticles.length %}
+        <section>
+          <h2 class="text-2xl font-bold mb-4 pb-2 border-b border-gray-300 dark:border-gray-700">{{ section }}</h2>
+          <div class="space-y-6">
+            {%- for article in sectionArticles -%}
+            <article class="flex items-start gap-4">
+              <div class="flex-grow">
+                <h3 class="font-bold text-lg"><a href="{{ article.url }}" class="hover:text-blue-600">{{ article.data.title }}</a></h3>
+                <p class="text-sm text-gray-500 mt-1">By {{ article.data.author }} • {{ article.date | readableDate }}</p>
+              </div>
+              <img src="{{ article.data.image }}" class="w-24 h-20 object-cover shrink-0" alt="{{ article.data.title }}">
+            </article>
+            {%- endfor -%}
+          </div>
+          <a href="/category/{{ section | slugify }}/" class="font-semibold text-blue-600 hover:underline mt-4 inline-block">More in {{ section }} →</a>
+        </section>
+        {% endif %}
+        {%- endfor -%}
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="lg:col-span-1 space-y-8">
+        {%- for section in ["Opinion", "Culture"] -%}
+        {% set sectionArticles = collections.articles | filterBy("section", section) | slice(0, 4) %}
+        {% if sectionArticles.length %}
+        <section class="bg-gray-50 dark:bg-gray-900 p-6 border border-gray-200 dark:border-gray-800">
+          <h2 class="text-xl font-bold mb-4 pb-2 border-b border-gray-300 dark:border-gray-700">{{ section }}</h2>
+          <ul class="space-y-4">
+            {%- for article in sectionArticles -%}
+            <li class="{% if not loop.first %}pt-4 border-t border-gray-200 dark:border-gray-800{% endif %}">
+              <a href="{{ article.url }}" class="font-bold hover:text-blue-600">{{ article.data.title }}</a>
+              <p class="text-xs text-gray-500 mt-1">By {{ article.data.author }} • {{ article.date | readableDate }}</p>
+            </li>
+            {%- endfor -%}
+          </ul>
+        </section>
+        {% endif %}
+        {%- endfor -%}
+      </aside>
+    </div>
 </div>
