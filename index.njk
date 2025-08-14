@@ -71,7 +71,7 @@ title: "Treasure from Every Horizon"
             </article>
             {%- endfor -%}
           </div>
-          <a href="/category/{{ section | slug }}/" class="font-semibold text-blue-600 hover:underline mt-4 inline-block">More in {{ section }} →</a>
+          <a href="/category/{{ section | slugify }}/" class="font-semibold text-blue-600 hover:underline mt-4 inline-block">More in {{ section }} →</a>
         </section>
         {% endif %}
         {%- endfor -%}
