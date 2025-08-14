@@ -1,75 +1,93 @@
-# G7 Summit in Hiroshima: A United Front Against Authoritarianism?
 
-*In May 2023, leaders of the world’s most advanced democracies gathered in Hiroshima, pledging unity on security, economics, and values — but also revealing the limits of consensus in confronting authoritarian powers.*
+title: "A New Era of Trilateralism: Unpacking the Seoul-Tokyo-Washington Summit"
+date: "2023-03-23"
+author: "Minwoo Jung"
+section: "Politics"
+tags:
 
----
+    US
 
-## Introduction
+    Korea
 
-From May 19 to 21, 2023, the leaders of the Group of Seven (G7) convened in Hiroshima, Japan — a city whose history as the first target of an atomic bomb underscored the summit’s themes of peace, security, and the risks of global conflict. Hosted by Japanese Prime Minister Fumio Kishida, the meeting brought together leaders from the United States, Canada, the United Kingdom, France, Germany, Italy, and the European Union.  
+    Japan
 
-The setting was symbolic; the agenda was urgent. Russia’s war in Ukraine, China’s growing assertiveness, and the resilience of authoritarian regimes framed the discussions. Yet as the final communiqués showed, unity in principle does not always translate into unity in policy.
+    trilateral
+    image: "https://www.google.com/search?q=https://common.usembassy.gov/wp-content/uploads/sites/67/2023/08/Tri2A-1024x406.jpg"
+    summary: "On March 30, 2023, leaders from South Korea, Japan, and the United States met to reaffirm security ties, marking a strategic shift in Northeast Asia shaped by history, deterrence, and the shadow of great-power rivalry."
 
----
+On March 30, 2023, leaders from South Korea, Japan, and the United States met to reaffirm security ties, marking a strategic shift in Northeast Asia shaped by history, deterrence, and the shadow of great-power rivalry.
+Introduction
 
-## The Symbolism of Hiroshima
+The Seoul–Tokyo–Washington summit in late March 2023 was not just another diplomatic meeting. It was a statement — that three countries with a complicated shared history were ready to put more of that history aside in favor of a common security agenda.
 
-Holding the summit in Hiroshima was both a diplomatic and moral statement. Kishida, whose political base is in the city, sought to remind leaders of the catastrophic consequences of nuclear war while reinforcing Japan’s identity as a proponent of disarmament.  
+For South Korea and Japan, the timing was significant. Barely two weeks earlier, President Yoon Suk Yeol had unveiled his controversial forced labor compensation plan, clearing one of the biggest obstacles to improved relations. For Washington, the meeting was part of a broader Indo-Pacific strategy: binding its two key East Asian allies closer together as the region faces a rising China, a nuclear North Korea, and a deepening Russia–China partnership.
 
-The location also allowed the G7 to send a message: that democratic nations must stand together against threats to peace, whether from nuclear-armed states like Russia or rising powers like China.
+The question was whether this new era of trilateralism represented genuine long-term alignment — or simply the alignment of convenience.
+Historical Backdrop
+The Weight of the Past
 
----
+South Korea–Japan relations have long been overshadowed by disputes rooted in Japan’s 1910–1945 colonial rule over Korea. Forced labor and wartime sexual slavery remain unresolved issues in the public consciousness, often derailing high-level cooperation.
 
-## Core Security Issues
+Efforts to coordinate more closely with the U.S. have repeatedly stumbled over these historical grievances. Washington, though officially neutral on historical disputes, has often played mediator — urging Seoul and Tokyo to focus on shared security challenges.
+Strategic Foundations
 
-### Ukraine: Steadfast Support, Strategic Questions
+The U.S.–ROK and U.S.–Japan alliances have been the cornerstones of America’s security presence in East Asia since the Korean War and the post-WWII occupation of Japan. But a fully integrated trilateral framework has always been elusive, in part because Seoul and Tokyo lacked the political will to institutionalize deep military cooperation.
+The Road to March 2023
+Yoon’s Diplomatic Gamble
 
-The G7 reaffirmed “unwavering” support for Ukraine, pledging additional military aid, training programs, and sanctions against Russia. Ukrainian President Volodymyr Zelenskyy attended in person — a move that underscored the war’s centrality to the summit.  
+President Yoon’s March 15 forced labor plan was a diplomatic risk. Domestically unpopular, it nonetheless opened the door for Japan’s Prime Minister Fumio Kishida to re-engage. The swift scheduling of the trilateral summit showed Washington’s eagerness to capitalize on this thaw.
+Regional Pressures
 
-While leaders projected unity, subtle differences remained over how far and how fast to escalate support. The U.S. and U.K. pushed for more advanced weapons systems; some European leaders remained cautious about measures that might be seen as crossing red lines with Moscow.
+Three developments in early 2023 made trilateral cooperation more urgent:
 
----
+    North Korea’s Missile Testing — Pyongyang launched over 70 missiles in 2022, including ICBMs capable of reaching the U.S. mainland.
 
-### China: Balancing Competition and Cooperation
+    China’s Assertiveness — Increased military activity near Taiwan and in the South China Sea raised concerns about a potential crisis.
 
-The G7 communiqué described China as both a “partner” and a “systemic challenge.” Leaders agreed on the need to de-risk — rather than decouple — economic ties, reflecting the difficulty of confronting Beijing without severing vital trade links.  
+    Russia’s War in Ukraine — The deepening Russia–China strategic partnership hinted at a more polarized global order in which Northeast Asia could become a flashpoint.
 
-On security, the group voiced concerns over China’s actions in the South China Sea and its military pressure on Taiwan, while stopping short of endorsing any explicit deterrence commitments.
+What the Summit Produced
+Security Commitments
 
----
+The leaders pledged to:
 
-## Economic and Technological Cooperation
+    Enhance real-time sharing of missile warning data.
 
-The summit addressed vulnerabilities in global supply chains, particularly for semiconductors, critical minerals, and clean energy technologies. Leaders pledged coordinated investment in infrastructure projects through the **Partnership for Global Infrastructure and Investment (PGII)** — an alternative to China’s Belt and Road Initiative.  
+    Expand joint military exercises, particularly naval and missile-defense drills.
 
-There was also discussion of setting common standards for emerging technologies like artificial intelligence, underscoring the role of democratic norms in tech governance.
+    Coordinate responses to North Korean provocations, both militarily and through sanctions.
 
----
+Economic and Technological Cooperation
 
-## Expanding the Democratic Table
+Beyond defense, the summit addressed:
 
-Japan invited leaders from India, Australia, Brazil, Vietnam, and several other countries to participate in outreach sessions. This was part of a broader effort to align with middle powers and emerging economies on shared principles, even when they do not fully align with G7 policies.  
+    Supply chain resilience for semiconductors and critical minerals.
 
-However, these outreach efforts revealed the limits of persuasion: some invited states maintained neutral or even cordial relations with Russia and China, underscoring the challenge of building a truly global coalition against authoritarianism.
+    Countering economic coercion — a veiled reference to Beijing’s use of trade as leverage.
 
----
+    Joint research in emerging technologies such as AI and quantum computing.
 
-## The Limits of Unity
+Institutionalizing Trilateralism
 
-### Divergent Threat Perceptions
+Perhaps most significant was the agreement to hold annual trilateral summits and regular ministerial-level dialogues. For decades, trilateralism had been episodic — flaring during crises and fading afterward. The March 2023 framework aimed to make it permanent.
+Opportunities and Obstacles
+Strategic Gains
 
-While the G7 is united in opposing Russia’s aggression and wary of China’s ambitions, national priorities differ. European states prioritize energy security and economic stability; Japan is focused on regional deterrence; the U.S. is managing global commitments from Europe to the Indo-Pacific.
+For Washington, trilateralism strengthens deterrence against both Pyongyang and Beijing while reducing the need to act as a constant go-between for Seoul and Tokyo.
 
----
+For South Korea and Japan, closer alignment could mean greater strategic leverage — and more predictable support in a crisis.
+Domestic Constraints
 
-### Domestic Pressures
+Public opinion in South Korea remained wary of Japan, and in Japan, nationalist factions resisted too much compromise on historical issues. Any flare-up — over history, trade, or disputed territories like Dokdo/Takeshima — could derail progress.
+The China Factor
 
-Leaders face domestic constraints: elections, inflation, and political opposition at home can limit how far they can go in sustaining international commitments. Public appetite for long-term foreign engagement is not uniform across G7 members.
+While the summit communiqués avoided direct confrontation, Beijing was clearly the subtext. China condemned the meeting as an attempt to form an “Asian NATO,” warning that such blocs would “destabilize the region.”
 
----
+For Seoul in particular, managing ties with China while deepening alignment with the U.S. and Japan will require careful balancing.
+Conclusion
 
-## Conclusion
+The March 30, 2023 Seoul–Tokyo–Washington summit marked a potential turning point in Northeast Asian security cooperation. It was the product of strategic necessity, diplomatic risk-taking, and U.S. orchestration — but also of a rare moment when the interests of three capitals aligned.
 
-The Hiroshima summit showcased the G7’s capacity to project unity — and the reality that such unity is a constant work in progress. The symbolism of meeting in a city scarred by nuclear war was powerful; the commitments on Ukraine, China, and economic resilience were significant.  
+Whether this new era of trilateralism endures will depend on more than shared threats. It will require political will, public support, and the ability to prevent old grievances from becoming new roadblocks.
 
-Yet the complexity of managing relations with authoritarian powers ensures that consensus will remain conditional and contested. If the G7’s message in May 2023 was that democracies stand together, its unspoken caveat was equally important: standing together is easier than moving forward in lockstep.
+In that sense, the summit was less an endpoint than a test: can the leaders who shook hands in March keep their countries walking in step when the cameras are gone?
