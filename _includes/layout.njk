@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{ title }} | The Argosy</title>
-  <meta name="description" content="{{ summary or 'Treasure from Every Horizon.' }}" />
+  {% include "meta-tags.njk" %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
@@ -30,6 +27,18 @@
       <div class="flex items-center justify-between py-4">
         <a href="/" class="flex items-center gap-3"><img src="/assets/argosy-logo.png" alt="The Argosy logo" class="h-9 md:h-10" /><span class="site-title">The Argosy</span></a>
         <nav class="hidden md:flex items-center gap-6 text-sm font-semibold">
+          <div class="relative" id="categories-dropdown">
+            <button id="categories-btn" class="flex items-center gap-1 hover:text-blue-600">
+              <span>Categories</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+            </button>
+            <div id="categories-menu" class="hidden absolute left-0 mt-2 w-56 bg-white dark:bg-gray-900 shadow-lg ring-1 ring-black ring-opacity-5 z-20">
+              <div class="grid grid-cols-2 gap-1 p-2">
+                <a href="/category/politics/" class="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800">Politics</a>
+                <a href="/category/health/" class="block px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-800">Health</a>
+              </div>
+            </div>
+          </div>
           <a href="/team/" class="hover:text-blue-600">Team</a>
           <a href="/about/" class="hover:text-blue-600">About</a>
           <a href="/recruit/" class="hover:text-blue-600">Join</a>
